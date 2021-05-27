@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.678);
+}
+
+#contain {
+  margin: 30px;
+  margin-bottom: 0px !important;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 5px;
+  width: 40px;
+}
+
+nav > a {
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+nav > a:hover {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.815);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main>*{
+    margin: 10px;
+}
+
+p{
+    font-size: 14px;
+}
+
+#p1 {
+  width: 350px;
+  text-align: center;
+}
+
+#p2{
+    width: 500px;
+    text-align: center;
+}
+
+button {
+  padding: 6px;
+  border: none;
+  border-left: 1px solid rgb(0, 0, 0) !important;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+#facebook,#google {
+  display: flex;
+  align-items: center;
+}
+
+#facebook > button {
+  background-color: #3b5998;
+  color: white;
+}
+
+#google > button {
+    color: rgba(0, 0, 0, 0.76);
+  }
+  
+
+#google>img{
+    background-color: white;
+
+}
+
+#facebook>button:hover{
+    /* background-color: ; */
+    background-color: #3b5898bd;
+}
+
+#google>button:hover{
+    color: black;
+}

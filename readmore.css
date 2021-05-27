@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.678);
+}
+
+#contain {
+  margin: 30px;
+  margin-bottom: 0px !important;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 5px;
+}
+
+nav > a {
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+nav > a:hover {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.815);
+}
+
+.space {
+  margin: 6px 0px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 20px;
+}
+
+footer {
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+
+#up,
+#down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#up > a,
+#down > a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 13px;
+}
+
+#up > a:hover,
+#down > a:hover {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.815);
+}
+
+#cen{
+    display: flex;
+    justify-content: center;
+}
+
+#fastfood {
+  width: 450px;
+  height: 200px;
+  float: right;
+  margin-left: 10px;
+}
+
+main {
+  padding: 10px 5px;
+}
+
+main > * {
+  margin: 15px 0px;
+}
+
+main > p {
+  font-size: 12px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
